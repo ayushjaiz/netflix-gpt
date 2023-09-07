@@ -2,11 +2,11 @@
 
 - Create React App
 - Configured Tailwind CSS
-- Header
-- Routing of App
-- Login form
-- Signup form
 - Form Validation
+- Firebase Setup
+- Deploying app to production
+- Create Auth
+- Create Redux Store
 
 # Features
 
