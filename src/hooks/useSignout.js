@@ -10,7 +10,6 @@ const useSignout = () => {
         try {
             await signOut(auth);
             dispatch(removeUser());
-            console.log('button');
         } catch (error) {
             console.error(error);
         }

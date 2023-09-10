@@ -1,10 +1,10 @@
-import useNowPlayingMovies from "../hooks/useNowPlayingMovies";
+import useGetAllMovies from "../hooks/useGetAllMovies";
 import Header from "./Header";
 import MainContainer from "./MainContainer";
 import SecondaryConatiner from "./SecondaryConatiner";
 
 const Browse = () => {
-    useNowPlayingMovies(); //Add data to store from TMDB API
+    useGetAllMovies(); //Add data to store from TMDB API
 
     return (
         <>
